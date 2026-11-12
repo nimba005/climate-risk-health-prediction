@@ -1,0 +1,18 @@
+# Environment
+.venv/
+.venv-wsl/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+catboost_info/
+
+# Competition data must not be shared publicly (Zindi rules)
+data/raw/*
+!data/raw/.gitkeep
+data/synthetic/
+data/processed/
+
+# Generated outputs
+models/
+submissions/
+reports/
